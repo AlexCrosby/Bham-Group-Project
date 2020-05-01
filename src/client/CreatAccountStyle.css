@@ -1,0 +1,180 @@
+/*root类选择器给所有的元素设置样式*/
+
+/*.pane {*/
+/*    -fx-font-family: "微软雅黑";*/
+/*    -fx-font-size: 13px;*/
+/*    -fx-background-image: url("../Resources/bg_1.jpg");*/
+/*    -fx-background-size: stretch stretch;*/
+/*    -fx-background-position: center center;*/
+/*}*/
+#gridPane {
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 16px;
+    -fx-background-image: url("../Resources/Images/newBackground.jpg");
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+
+/*button类型选择器设置所有Button的背景色*/
+.button {
+    /*-fx-background-color: darkturquoise;*/
+    -fx-background-color:
+    linear-gradient(#f2f2f2, #d6d6d6),
+    linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+    linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+/*hover伪类选择器设置鼠标移过Button时的背景色*/
+.button:hover {
+    -fx-background-color: lightskyblue;
+}
+
+/*id选择器设置Label标题的样式*/
+#label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: darkslategray;
+}
+#cannotLogin-text {
+
+    -fx-font-family: "华文隶书";
+    -fx-fill: #ff4500;
+    -fx-effect: innershadow( three-pass-box , rgba(198, 7, 16, 0.7), 6, 0.0 , 0 , 2 );
+}
+#loginButton {
+ 
+}
+
+
+
+#createAccountButton {
+ 
+}
+#passwordField {
+    -fx-fill: FIREBRICK;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#usernameField {
+    -fx-fill: FIREBRICK;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#emailField {
+    -fx-fill: FIREBRICK;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+#returnButton {
+    -fx-background-color:
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#exitRoomButton{
+    -fx-background-color:
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#clearButton{
+    -fx-background-color:
+            linear-gradient(#f2f2f2, #d6d6d6),
+            linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%),
+            linear-gradient(#dddddd 0%, #f6f6f6 50%);
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#repeatPasswordField {
+    -fx-fill: FIREBRICK;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#getRoomsButton {
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+#scrollPaneForRooms{
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 16px;
+    -fx-background-image: url("../Resources/Images/bg_roomlists.jpg");
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+#chatTextArea{
+
+    -fx-font-family: Consolas;
+    -fx-highlight-fill: #ff3500;
+    -fx-highlight-text-fill:  #800080;
+    -fx-text-fill: #800080;
+    -fx-background-image: url("../Resources/Images/chatfield_bg.jpg");
+}
+#chatTextArea .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+/*#canvas{*/
+/*    -fx-font-family: Consolas;*/
+/*    -fx-highlight-fill: #ff3500;*/
+/*    -fx-highlight-text-fill:  #800080;*/
+/*    -fx-text-fill: #800080;*/
+/*    -fx-background-image: url("../chatfield_bg.jpg");*/
+/*}*/
+#inputTextField{
+    -fx-font-family: "微软雅黑";
+    -fx-control-inner-background: #ff8b74;
+    -fx-fill: rgba(255, 53, 0, 0.84);
+    -fx-font-size: 16px;
+    -fx-background-image: url("../Resources/Images/chatfield_bg.jpg");
+    -fx-background-size: stretch stretch;
+    -fx-background-position: center center;
+}
+#scrollPaneForRooms > .viewport {
+    -fx-background-color: transparent;
+}
+
+#scrollPaneForRooms {
+    -fx-background-color: transparent;
+}
+#roomListVBox{
+    -fx-font-size: 16px;
+    -fx-font-family: "微软雅黑";
+    -fx-fill:  #ffd700;
+    -fx-effect: innershadow( three-pass-box , rgba(94, 104, 255, 0.7), 6, 0.0 , 0 , 2 );
+
+}
+.text-area {
+    -fx-background-color: transparent;
+    -fx-text-box-border: gray;
+}
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
